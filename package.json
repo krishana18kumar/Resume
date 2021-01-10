@@ -1,0 +1,23 @@
+{
+  "name": "Resume",
+  "version": "1.0.0",
+  "description": "",
+  "main": "render.js",
+  "scripts": {
+    "deploy": "gh-pages -d app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/krishana18kumar/Resume.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/krishana18kumar/Resume/issues"
+  },
+  "homepage": "https://github.com/krishana18kumar/Resume#readme",
+  "dependencies": {
+    "gh-pages": "^3.1.0"
+  }
+}
