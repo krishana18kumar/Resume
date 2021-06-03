@@ -1,491 +1,361 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Krishana Kumar | Frontend Developer</title>
-    <link
-      rel="stylesheet"
-      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
-      crossorigin="anonymous"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
-    />
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
-    <link rel="icon" type="image/png" href="./assets/favicon.png" />
-    <link rel="stylesheet" href="./style.css" />
-  </head>
 
-  <body>
-    <!--  -----------------------Navbar------------------------------- -->
-    <nav
-      class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark justify-content-between"
-    >
-      <div class="container-fluid px-5">
-        <a class="navbar-brand" href="#"><i class="fas fa-code m-2"></i></a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#home"
-                >Home <span class="sr-only">(current)</span></a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#about">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#pipeline">Projects</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#code-skills">Skills</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#contact">Contact</a>
-            </li>
-          </ul>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Krishana Kumar | Frontend Developer</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  <link rel="icon" type="image/png" href="./assets/favicon.png" />
+  <link rel="stylesheet" href="./style.css" />
+</head>
+
+<body>
+  <!--  -----------------------Navbar------------------------------- -->
+  <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark justify-content-between">
+    <div class="container-fluid px-5">
+      <a class="navbar-brand" href="#"><i class="fas fa-code m-2"></i></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#pipeline">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#code-skills">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!--  ---------------------- Intro ----------------------->
+  <div class="container-fluid">
+    <div id="home">
+      <div class="row">
+        <div class="col-sm-6" id="home-left" data-aos="zoom-in-up" data-aos-offset="200" data-aos-delay="50"
+          data-aos-duration="1000" data-aos-easing="ease-in-out">
+          <img id="homeimg" src="./assets/code.png" alt="code" />
+        </div>
+        <div class="col-sm-6" id="home-right" data-aos="zoom-in-down" data-aos-offset="200" data-aos-delay="50"
+          data-aos-duration="1000" data-aos-easing="ease-in-out">
+          <div>
+            <h2 class="">"Hello World!"</h2>
+            <br />
+            <h1 class="display-4">I'm Krishana</h1>
+            <br />
+            <h3>FRONT-END DEVELOPER</h3>
+            <h3>Machine Learning enthusiast</h3>
+            <h3>UnderGraduate</h3>
+            <!-- <h4>I’m pursuing graduation <br> Studying Computer Science Engg.</h4> -->
+            <br />
+          </div>
         </div>
       </div>
-    </nav>
-
-    <!--  ---------------------- Intro ----------------------->
-    <div class="container-fluid">
-      <div id="home">
-        <div class="row">
-          <div
-            class="col-sm-6"
-            id="home-left"
-            data-aos="zoom-in-up"
-            data-aos-offset="200"
-            data-aos-delay="50"
-            data-aos-duration="1000"
-            data-aos-easing="ease-in-out"
-          >
-            <img id="homeimg" src="./assets/code.png" alt="code" />
-          </div>
-          <div
-            class="col-sm-6"
-            id="home-right"
-            data-aos="zoom-in-down"
-            data-aos-offset="200"
-            data-aos-delay="50"
-            data-aos-duration="1000"
-            data-aos-easing="ease-in-out"
-          >
-            <div>
-              <h2 class="">"Hello World!"</h2>
+    </div>
+    <!-- -----------------about-------------------- -->
+    <div id="about" class="container-fluid">
+      <div class="row">
+        <div class="col-sm-6 jumbotron" id="about-left" data-aos="flip-up" data-aos-offset="200" data-aos-delay="50"
+          data-aos-duration="1000" data-aos-easing="ease-in-out">
+          <h2 class="display-4">About Me</h2>
+        </div>
+        <div class="col-sm-6" id="about-right" data-aos="flip-down" data-aos-offset="200" data-aos-delay="50"
+          data-aos-duration="1000" data-aos-easing="ease-in-out">
+          <div>
+            <p>
+              Hey, I'am Krishana Kumar,Frontend Web-Developer from Delhi,
+              India.
               <br />
-              <h1 class="display-4">I'm Krishana</h1>
-              <br />
-              <h3>FRONT-END DEVELOPER</h3>
-              <h3>Machine Learning enthusiast</h3>
-              <h3>UnderGraduate</h3>
-              <!-- <h4>I’m pursuing graduation <br> Studying Computer Science Engg.</h4> -->
-              <br />
-            </div>
+              I'm an ambitious developer,passionate about new technology and
+              its capabilites.
+            </p>
+            <p>
+              I design, build, operate & sometimes make full-stack
+              applications.
+            </p>
+            <p>
+              Have a project you'd like to discuss ?<br />
+              Let's Chat
+              <a href="mailto:krishan2718@gmail.com">krishan2718@gmail.com</a>
+            </p>
           </div>
         </div>
-      </div>
-      <!-- -----------------about-------------------- -->
-      <div id="about" class="container-fluid">
-        <div class="row">
-          <div
-            class="col-sm-6 jumbotron"
-            id="about-left"
-            data-aos="flip-up"
-            data-aos-offset="200"
-            data-aos-delay="50"
-            data-aos-duration="1000"
-            data-aos-easing="ease-in-out"
-          >
-            <h2 class="display-4">About Me</h2>
-          </div>
-          <div
-            class="col-sm-6"
-            id="about-right"
-            data-aos="flip-down"
-            data-aos-offset="200"
-            data-aos-delay="50"
-            data-aos-duration="1000"
-            data-aos-easing="ease-in-out"
-          >
-            <div>
-              <p>
-                Hey, I'am Krishana Kumar,Frontend Web-Developer from Delhi,
-                India.
-                <br />
-                I'm an ambitious developer,passionate about new technology and
-                its capabilites.
-              </p>
-              <p>
-                I design, build, operate & sometimes make full-stack
-                applications.
-              </p>
-              <p>
-                Have a project you'd like to discuss ?<br />
-                Let's Chat
-                <a href="mailto:krishan2718@gmail.com">krishan2718@gmail.com</a>
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!-- -----------------skills------------------- -->
-      <div id="skills">
-        <div class="row">
-          <div
-            class="col-xl-3 col-lg-6"
-            data-aos="fade-right"
-            data-aos-offset="200"
-            data-aos-delay="50"
-            data-aos-duration="1000"
-            data-aos-easing="ease-in-out"
-          >
-            <div class="card m-3">
-              <div class="card-body">
-                <p><i class="fas fa-file-code"></i></p>
-                <h5 class="card-title">Web Devopement</h5>
-                <h6 class="card-subtitle m-2 text-muted">
-                  Well versed with HTML CSS and JS
-                </h6>
-                <p class="card-text">
-                  Completed the Web-Development course offered by Udemy.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div
-            class="col-xl-3 col-lg-6"
-            data-aos="fade-right"
-            data-aos-offset="200"
-            data-aos-delay="50"
-            data-aos-duration="1000"
-            data-aos-easing="ease-in-out"
-          >
-            <div class="card m-3">
-              <div class="card-body">
-                <p><i class="fas fa-money-bill-alt"></i></p>
-                <h5 class="card-title">Algorithm & Data Structures</h5>
-                <h6 class="card-subtitle m-2 text-muted">
-                  Versed with the Algorithms & Data Structures
-                </h6>
-                <p class="card-text">
-                  I'm thorough with the concepts of C and C++. Successfully
-                  completed the course offered by Coding Blocks.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div
-            class="col-xl-3 col-lg-6"
-            data-aos="fade-left"
-            data-aos-offset="200"
-            data-aos-delay="50"
-            data-aos-duration="1000"
-            data-aos-easing="ease-in-out"
-          >
-            <div class="card m-3">
-              <div class="card-body">
-                <p><i class="fas fa-chart-line"></i></p>
-                <h5 class="card-title">React JS</h5>
-                <h6 class="card-subtitle m-2 text-muted">Started Learing JS</h6>
-                <p class="card-text">
-                  Currently understanding and working on the concepts of React
-                  Js.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div
-            class="col-xl-3 col-lg-6"
-            data-aos="fade-left"
-            data-aos-offset="200"
-            data-aos-delay="50"
-            data-aos-duration="1000"
-            data-aos-easing="ease-in-out"
-          >
-            <div class="card m-3">
-              <div class="card-body">
-                <p><i class="fas fa-th-large"></i></p>
-                <h5 class="card-title">Familiar with Backend</h5>
-                <h6 class="card-subtitle m-2 text-muted">
-                  knows basic concept of Node, Express and MongoDB
-                </h6>
-                <p class="card-text"></p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!-- ---------------pipeline----------------- -->
-      <div id="pipeline">
-        <div class="row">
-          <div
-            class="col-md-6 col-sm-12"
-            data-aos="fade-up-right"
-            data-aos-offset="200"
-            data-aos-delay="50"
-            data-aos-duration="1000"
-            data-aos-easing="ease-in-out"
-          >
-            <div class="pipeline-left" id="education">
-              <div class="timeline">
-                <h2 class="m-5">
-                  <i class="fas fa-user-graduate"></i>Education
-                </h2>
-                <div class="card m-4 block right">
-                  <div class="card-body">
-                    <h5 class="card-title">
-                      BTech in CSE - BVCOE, GGSIP University
-                    </h5>
-                    <h6 class="card-subtitle m-2 text-muted">
-                      2018 - Till Present
-                    </h6>
-                    <p class="card-text">
-                      Semester 1 - 8.00<br />
-                      Semester 2 - 8.30 <br />
-                      Semester 3 - 8.26 <br />
-                      Semester 4 - 8.80 <br />
-                    </p>
-                  </div>
-                </div>
-
-                <div class="card m-4 block right">
-                  <div class="card-body">
-                    <h5 class="card-title">
-                      Higher Secondary School - C.R.P.F Public School,Rohini
-                    </h5>
-                    <h6 class="card-subtitle m-2 text-muted">2015 - 2017</h6>
-                    <p class="card-text">
-                      I have studied PCM with Computer science as a part of my
-                      Higher Secondary School Education.
-                      <br />
-                    </p>
-                  </div>
-                </div>
-                <div class="card m-4 block right">
-                  <div class="card-body">
-                    <h5 class="card-title">
-                      Secondary School - C.R.P.F Public School,Rohini
-                    </h5>
-                    <h6 class="card-subtitle m-2 text-muted">2013-2015</h6>
-                    <p class="card-text">
-                      I have managed to score 8.8 CGPA in my secondary school
-                      education.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div
-            class="col-md-6 col-sm-12"
-            data-aos="fade-up-left"
-            data-aos-offset="200"
-            data-aos-delay="50"
-            data-aos-duration="1000"
-            data-aos-easing="ease-in-out"
-          >
-            <div class="pipeline-right" id="project">
-              <div class="timeline">
-                <h2 class="m-5"><i class="fas fa-laptop-code"></i>Projects</h2>
-                <div class="card m-4 block right">
-                  <div class="card-body">
-                    <h5 class="card-title">Todo Web App</h5>
-                    <h6 class="card-subtitle m-2 text-muted">
-                      <a href="http://github.com/krishana18kumar/Todo-App"
-                        >Github Repo Link</a
-                      >
-                    </h6>
-                    <p class="card-text">
-                      A ToDo list web application in which new tasks can be
-                      added and the finished tasks can be removed. Built with
-                      HTML,CSS,JS&Font-awesome.
-                    </p>
-                  </div>
-                </div>
-
-                <div class="card m-4 block right">
-                  <div class="card-body">
-                    <h5 class="card-title">Blog Post Site</h5>
-                    <h6 class="card-subtitle m-2 text-muted">
-                      <a href="https://blog-post-1234.herokuapp.com/"
-                        >Site Link</a
-                      >
-                    </h6>
-                    <p class="card-text">
-                      It is a Blog post site using MEN Stack. It has login
-                      /logout authentication. only logged in user can post new
-                      blogs and comments.and only the user who created the post
-                      can edit or delete his/her posts or comments i.e.
-                      authorization.
-                    </p>
-                  </div>
-                </div>
-                <div class="card m-4 block right">
-                  <div class="card-body">
-                    <h5 class="card-title">Tourism Website</h5>
-                    <h6 class="card-subtitle m-2 text-muted">
-                      <a
-                        href="https://github.com/krishana18kumar/Simple-Website-"
-                        >Github Repo Link</a
-                      >
-                    </h6>
-                    <p class="card-text">
-                      It is a Tourism website (just the Frontend). And till now,
-                      I have build the Landing page only. work is currently in
-                      progress and will be completing soon.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!-- ----------------- Coding skills ------------------ -->
-      <div id="code-skills">
-        <div class="row">
-          <div
-            class="col-xl-6"
-            id="code-skills-left"
-            data-aos="fade-down-right"
-            data-aos-offset="200"
-            data-aos-delay="50"
-            data-aos-duration="1000"
-            data-aos-easing="ease-in-out"
-          >
-            <div class="card m-4" style="height: 18rem">
-              <div class="card-body">
-                <h1 id="code-banner" class="card-title display-4">
-                  <i class="fas fa-terminal"></i>
-                  Coding Skills
-                </h1>
-              </div>
-            </div>
-          </div>
-
-          <div
-            class="col-xl-6"
-            id="code-skills-right"
-            data-aos="fade-down-left"
-            data-aos-offset="200"
-            data-aos-delay="50"
-            data-aos-duration="1000"
-            data-aos-easing="ease-in-out"
-          >
-            <div class="card m-4" style="height: 18rem">
-              <div class="card-body">
-                <img src="./assets/html5.png" alt="HTML5" title="HTML%" />
-                <img src="./assets/css3.png" alt="CSS3" />
-                <img src="./assets/js.png" alt="JS" />
-                <br />
-                <img src="./assets/nodejs.png" alt="Nodejs" />
-                <img src="./assets/mongoDB.png" alt="mongoDB" />
-                <img src="./assets/Ml.png" alt="Machine Learning" />
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!-- ----------------- Contact ----------------- -->
-      <div id="contact">
-        <div class="row">
-          <div
-            class="col-xl-6"
-            id="contact-left"
-            data-aos="flip-right"
-            data-aos-offset="200"
-            data-aos-delay="50"
-            data-aos-duration="1000"
-            data-aos-easing="ease-in-out"
-          >
-            <div class="row">
-              <div class="col-lg-3 col-sm-3">
-                <a href="https://github.com/krishana18kumar/" target="_blank"
-                  ><i class="fab fa-github-square"></i
-                ></a>
-              </div>
-              <div class="col-lg-3 col-sm-3">
-                <a
-                  href="https://www.linkedin.com/in/krishana-kumar-193570170/"
-                  target="_blank"
-                  ><i class="fab fa-linkedin"></i
-                ></a>
-              </div>
-              <div class="col-lg-3 col-sm-3">
-                <a href="mailto:krishan2718@gmail.com" target="_blank"
-                  ><i class="fas fa-envelope"></i
-                ></a>
-              </div>
-              <div class="col-lg-3 col-sm-3">
-                <a href="https://twitter.com/krishana1807" target="_blank"
-                  ><i class="fab fa-twitter-square"></i
-                ></a>
-              </div>
-            </div>
-          </div>
-          <div
-            class="col-xl-6"
-            id="contact-right"
-            data-aos="flip-left"
-            data-aos-offset="200"
-            data-aos-delay="50"
-            data-aos-duration="1000"
-            data-aos-easing="ease-in-out"
-          >
-            <h1 class="display-4">
-              Reach out to me! <i class="fab fa-korvue"></i>
-            </h1>
-          </div>
-        </div>
-      </div>
-
-      <!-- ------------------ Footer --------------------- -->
-      <div class="row justify-content-end" id="footer">
-        <h5 class="col-lg-8 col-sm-12 p-1 px-5">
-          © 2020 Krishana Kumar | All Rights Reserved
-        </h5>
       </div>
     </div>
 
-    <script
-      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-      crossorigin="anonymous"
-    ></script>
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script>
-      AOS.init();
-    </script>
-  </body>
+    <!-- -----------------skills------------------- -->
+    <div id="skills">
+      <div class="row">
+        <div class="col-xl-3 col-lg-6" data-aos="fade-right" data-aos-offset="200" data-aos-delay="50"
+          data-aos-duration="1000" data-aos-easing="ease-in-out">
+          <div class="card m-3">
+            <div class="card-body">
+              <p><i class="fas fa-file-code"></i></p>
+              <h5 class="card-title">Web Devopement</h5>
+              <h6 class="card-subtitle m-2 text-muted">
+                Well versed with HTML CSS and JS
+              </h6>
+              <p class="card-text">
+                Completed the Web-Development course offered by Udemy.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-3 col-lg-6" data-aos="fade-right" data-aos-offset="200" data-aos-delay="50"
+          data-aos-duration="1000" data-aos-easing="ease-in-out">
+          <div class="card m-3">
+            <div class="card-body">
+              <p><i class="fas fa-money-bill-alt"></i></p>
+              <h5 class="card-title">Algorithm & Data Structures</h5>
+              <h6 class="card-subtitle m-2 text-muted">
+                Versed with the Algorithms & Data Structures
+              </h6>
+              <p class="card-text">
+                I'm thorough with the concepts of C and C++. Successfully
+                completed the course offered by Coding Blocks.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-3 col-lg-6" data-aos="fade-left" data-aos-offset="200" data-aos-delay="50"
+          data-aos-duration="1000" data-aos-easing="ease-in-out">
+          <div class="card m-3">
+            <div class="card-body">
+              <p><i class="fas fa-chart-line"></i></p>
+              <h5 class="card-title">React JS</h5>
+              <h6 class="card-subtitle m-2 text-muted">Started Learing JS</h6>
+              <p class="card-text">
+                Currently understanding and working on the concepts of React
+                Js.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-3 col-lg-6" data-aos="fade-left" data-aos-offset="200" data-aos-delay="50"
+          data-aos-duration="1000" data-aos-easing="ease-in-out">
+          <div class="card m-3">
+            <div class="card-body">
+              <p><i class="fas fa-th-large"></i></p>
+              <h5 class="card-title">Familiar with Backend</h5>
+              <h6 class="card-subtitle m-2 text-muted">
+                knows basic concept of Node, Express and MongoDB
+              </h6>
+              <p class="card-text"></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
-  <script src="./render.js"></script>
+    <!-- ---------------pipeline----------------- -->
+    <div id="pipeline">
+      <div class="row">
+        <div class="col-md-6 col-sm-12" data-aos="fade-up-right" data-aos-offset="200" data-aos-delay="50"
+          data-aos-duration="1000" data-aos-easing="ease-in-out">
+          <div class="pipeline-left" id="education">
+            <div class="timeline">
+              <h2 class="m-5">
+                <i class="fas fa-user-graduate"></i>Education
+              </h2>
+              <div class="card m-4 block right">
+                <div class="card-body">
+                  <h5 class="card-title">
+                    BTech in CSE - BVCOE, GGSIP University
+                  </h5>
+                  <h6 class="card-subtitle m-2 text-muted">
+                    2018 - Till Present
+                  </h6>
+                  <p class="card-text">
+                    Semester 1 - 8.00<br />
+                    Semester 2 - 8.30 <br />
+                    Semester 3 - 8.26 <br />
+                    Semester 4 - 8.80 <br />
+                  </p>
+                </div>
+              </div>
+
+              <div class="card m-4 block right">
+                <div class="card-body">
+                  <h5 class="card-title">
+                    Higher Secondary School - C.R.P.F Public School,Rohini
+                  </h5>
+                  <h6 class="card-subtitle m-2 text-muted">2015 - 2017</h6>
+                  <p class="card-text">
+                    I have studied PCM with Computer science as a part of my
+                    Higher Secondary School Education.
+                    <br />
+                  </p>
+                </div>
+              </div>
+              <div class="card m-4 block right">
+                <div class="card-body">
+                  <h5 class="card-title">
+                    Secondary School - C.R.P.F Public School,Rohini
+                  </h5>
+                  <h6 class="card-subtitle m-2 text-muted">2013-2015</h6>
+                  <p class="card-text">
+                    I have managed to score 8.8 CGPA in my secondary school
+                    education.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-sm-12" data-aos="fade-up-left" data-aos-offset="200" data-aos-delay="50"
+          data-aos-duration="1000" data-aos-easing="ease-in-out">
+          <div class="pipeline-right" id="project">
+            <div class="timeline">
+              <h2 class="m-5"><i class="fas fa-laptop-code"></i>Projects</h2>
+              <div class="card m-4 block right">
+                <div class="card-body">
+                  <h5 class="card-title">Todo Web App</h5>
+                  <h6 class="card-subtitle m-2 text-muted">
+                    <a href="http://github.com/krishana18kumar/Todo-App">Github Repo Link</a>
+                  </h6>
+                  <p class="card-text">
+                    A ToDo list web application in which new tasks can be
+                    added and the finished tasks can be removed. Built with
+                    HTML,CSS,JS&Font-awesome.
+                  </p>
+                </div>
+              </div>
+
+              <div class="card m-4 block right">
+                <div class="card-body">
+                  <h5 class="card-title">Blog Post Site</h5>
+                  <h6 class="card-subtitle m-2 text-muted">
+                    <a href="https://blog-post-1234.herokuapp.com/">Site Link</a>
+                  </h6>
+                  <p class="card-text">
+                    It is a Blog post site using MEN Stack. It has login
+                    /logout authentication. only logged in user can post new
+                    blogs and comments.and only the user who created the post
+                    can edit or delete his/her posts or comments i.e.
+                    authorization.
+                  </p>
+                </div>
+              </div>
+              <div class="card m-4 block right">
+                <div class="card-body">
+                  <h5 class="card-title">Tourism Website</h5>
+                  <h6 class="card-subtitle m-2 text-muted">
+                    <a href="https://github.com/krishana18kumar/Simple-Website-">Github Repo Link</a>
+                  </h6>
+                  <p class="card-text">
+                    It is a Tourism website (just the Frontend). And till now,
+                    I have build the Landing page only. work is currently in
+                    progress and will be completing soon.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ----------------- Coding skills ------------------ -->
+    <div id="code-skills">
+      <div class="row">
+        <div class="col-xl-6 my-4" id="code-skills-left" data-aos="fade-down-right" data-aos-offset="200"
+          data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out">
+          <div class="card" style="height: 18rem">
+            <div class="card-body">
+              <h1 id="code-banner" class="card-title display-4">
+                <i class="fas fa-terminal"></i>
+                Coding Skills
+              </h1>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-xl-6 my-4" id="code-skills-right" data-aos="fade-down-left" data-aos-offset="200"
+          data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out">
+          <div class="card" style="height: 18rem">
+            <div class="card-body">
+              <img src="./assets/html5.png" alt="HTML5" title="HTML%" />
+              <img src="./assets/css3.png" alt="CSS3" />
+              <img src="./assets/js.png" alt="JS" />
+              <br />
+              <img src="./assets/nodejs.png" alt="Nodejs" />
+              <img src="./assets/mongoDB.png" alt="mongoDB" />
+              <img src="./assets/Ml.png" alt="Machine Learning" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ----------------- Contact ----------------- -->
+    <div id="contact">
+      <div class="row">
+        <div class="col-xl-6" id="contact-left" data-aos="flip-right" data-aos-offset="200" data-aos-delay="50"
+          data-aos-duration="1000" data-aos-easing="ease-in-out">
+          <div class="row">
+            <div class="my-5">
+              <a href="https://github.com/krishana18kumar/" target="_blank"><i class="fab fa-github-square"></i></a>
+            </div>
+            <div class="my-5">
+              <a href="https://www.linkedin.com/in/krishana-kumar-193570170/" target="_blank"><i
+                  class="fab fa-linkedin"></i></a>
+            </div>
+            <div class="my-5">
+              <a href="mailto:krishan2718@gmail.com" target="_blank"><i class="fas fa-envelope"></i></a>
+            </div>
+            <div class="my-5">
+              <a href="https://twitter.com/krishana1807" target="_blank"><i class="fab fa-twitter-square"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-6" id="contact-right" data-aos="flip-left" data-aos-offset="200" data-aos-delay="50"
+          data-aos-duration="1000" data-aos-easing="ease-in-out">
+          <h1 class="display-4">
+            Reach out to me! <i class="fab fa-korvue"></i>
+          </h1>
+        </div>
+      </div>
+    </div>
+
+    <!-- ------------------ Footer --------------------- -->
+    <div class="row justify-content-end" id="footer">
+      <h5 class="col-lg-8 col-sm-12 p-1 px-5">
+        © 2020 Krishana Kumar | All Rights Reserved
+      </h5>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+  </script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+  </script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+
+<script src="./render.js"></script>
+
 </html>
