@@ -169,32 +169,41 @@ img {
 
 #contact-left {
   border: 3px #ff9f55 solid;
-  margin: 30px auto;
+  margin: 10px auto;
   max-width: 35rem;
   border-bottom-left-radius: 40%;
   border-top-right-radius: 40%;
-  padding: 10px;
+  padding: 20px 10px;
 }
 
-#contact-left div {
+#contact-left .row {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 30px 10px;
+}
+
+#contact-left .row div {
   padding: 10px;
 }
 
 #contact-right {
   margin: 10px auto;
   max-width: 35rem;
-  padding: 10px;
   border: 3px solid black;
   text-align: center;
   border-top-left-radius: 40%;
   border-bottom-right-radius: 40%;
+  padding: 20px 10px;
 }
 
-#contact-right h1 {
-  padding: 20px;
+#contact-right div {
+  padding: 30px 10px;
+}
+
+#contact-right div h3 {
+  font-size: 40px;
+  font-weight: lighter;
 }
 
 #footer {
